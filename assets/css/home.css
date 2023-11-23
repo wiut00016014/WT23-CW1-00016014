@@ -1,0 +1,237 @@
+/* Back-Image Start */
+.backgroundcoffee {
+  background: url(../img/background-try.jpg) rgba(17, 18, 18, 0.5);
+  mix-blend-mode: darken;
+  background-position: top center;
+  background-size: cover;
+}
+.background_content {
+  padding: 100px 0;
+}
+
+.opacity {
+  background-color: rgba(17, 18, 18, 0.5);
+  height: 100%;
+}
+
+.background_content h6 {
+  color: #edb932;
+  text-transform: uppercase;
+  font-weight: 500px;
+  font-size: 15px;
+}
+
+.background_content h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 20px 0;
+}
+
+.background_content p {
+  color: #fff;
+  width: 50%;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  background-color: #edb932;
+  padding: 12px 35px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.scroll_parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  padding-top: 210px;
+  color: #fff;
+}
+
+.left {
+  padding-top: 210px;
+  color: #fff;
+}
+/* Back-Image finished */
+
+/* Living Room */
+
+.coffee_parent {
+  padding-top: 100px;
+  display: flex;
+}
+
+.coffee_child:nth-child(1) {
+  width: 60%;
+}
+
+.coffee_child:nth-child(2) {
+  width: 40%;
+}
+
+.coffee_child img {
+  width: 80%;
+}
+
+.coffee_child h5 {
+  color: #bc9127;
+  padding-bottom: 60px;
+}
+
+.coffee_child h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.coffee_child p {
+  line-height: 27px;
+  padding-bottom: 45px;
+}
+
+.OrderCof {
+  background-color: #edb932;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 12px 35px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.OrderCof:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.coffee_shop_parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.coffee_shop_child {
+  width: 23%;
+  border: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+}
+
+.coffe_shop_child_text {
+  height: 100%;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee_shop_child img {
+  width: 100%;
+  height: 158px;
+  object-fit: cover;
+}
+
+.coffee_shop_child:hover {
+  box-shadow: 11px 18px 110px 5px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 11px 18px 110px 5px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 11px 18px 110px 5px rgba(0, 0, 0, 0.52);
+  cursor: pointer;
+  transition: 2s;
+}
+
+.coffee_shop_child h6 {
+  color: #bc9127;
+  font-size: 20px;
+}
+
+.coffee_shop_child p {
+  font-family: sans-serif;
+  color: #444;
+  padding-bottom: 20px;
+}
+/* Living Room finished */
+
+/* last point */
+.wonder h5 {
+  margin-top: 150px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.wonder h1 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+
+.wonder_parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.wonder_child {
+  width: 23%;
+}
+
+.wonder_child h4 {
+  padding: 15px 0;
+}
+
+.wonder_child p {
+  width: 95%;
+  line-height: 25px;
+}
+
+.subscribe_parent {
+  display: flex;
+  margin-top: 150px;
+  box-shadow: -1px -3px 16px 0px rgba(115, 109, 109, 0.75);
+  -webkit-box-shadow: -1px -3px 16px 0px rgba(115, 109, 109, 0.75);
+  -moz-box-shadow: -1px -3px 16px 0px rgba(115, 109, 109, 0.75);
+}
+
+.subscribe_child {
+  width: 50%;
+}
+
+.sub_child {
+  border: none;
+  padding: 40px 50px;
+}
+
+.sub_child h5 {
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+
+.sub_child h1 {
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+
+.sub_child input[type="email"] {
+  width: 40%;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.sub_child input[type="submit"] {
+  background-color: #edb932;
+  padding: 12px 30px;
+  border: none;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.sub_child input[type="submit"]:hover {
+  cursor: pointer;
+  color: #fff;
+}

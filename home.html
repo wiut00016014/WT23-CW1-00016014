@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <header class="navbar">
+      <div class="navbar_content container">
+        <a href="home.html"
+          ><img class="coffeelogo" src="./assets/img/Logo.jpeg" alt=""
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Coffee Menu</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="burger">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <div id="menu">
+                  <div class="container">
+                    <div><a href="home.html">Home</a></div>
+                    <div><a href="menu.html">Coffee Menu</a></div>
+                    <div><a href="food.html">Food</a></div>
+                    <div><a href="press.html">Press</a></div>
+                    <div><a href="contact.html">Contact</a></div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+      </div>
+    </header>
+    <!-- Navar finished -->
+
+    <!-- Back-Image Started -->
+    <section class="backgroundcoffee">
+      <div class="opacity">
+        <div class="background_content container">
+          <h6>&#8212;&#8212;&#8212;&#8212; Bibigon Cafe</h6>
+          <h1>Make Yourself At Home</h1>
+          <p>
+            WE ARE OPEN EVERYDAY FROM 7.30AM-5.30PM MON-FRI AND 8AM-6PM SAT-SUN.
+            WE DONT TAKE BOOKINGS BUT WE HAVE TABLES AVAILABLE INSIDE AND
+            OUTSIDE FOR WALK-IN'S.
+          </p>
+
+          <button class="btn">Order Now</button>
+
+          <div class="scroll_parent">
+            <div class="right">
+              <h4>Scroll Down</h4>
+            </div>
+            <div class="left">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sides Menu -->
+    <div class="sides_men disabled" id="sides_menu">
+      <img src="./assets/img/sides.jpg" alt="" />
+      <button id="close_btn">X</button>
+
+      <div class="sides_men_sidebar">
+        <h2>SIDES MENU</h2>
+        <p>
+          <ul>
+            <li><strong>1.</strong>Bacon:         <strong>$3.00</strong></li><br>
+            <li><strong>2.</strong>Turkey Bacon:         <strong>$5.00</strong></li><br>
+            <li><strong>3.</strong>Ham:         <strong>$4.00</strong></li><br>
+            <li><strong>4.</strong>Goats Cheese:         <strong>$6.00</strong></li><br>
+            <li><strong>5.</strong>Spinach:         <strong>$2.00</strong></li><br>
+            <li><strong>6.</strong>Tomato:         <strong>$1.00</strong></li><br>
+            <li><strong>7.</strong>Smoked Salmon:         <strong>$3.00</strong></li><br>
+            <li><strong>8.</strong>Mushrooms:         <strong>$5.00</strong></li><br>
+          </ul>
+        </p>
+        <button class="sides_men_cancel" id="cancel_btn">Cancel</button>
+        <button class="sides_men_btn">Order Now</button>
+      </div>
+    </div>
+    <!-- Sides Menu Finished -->
+
+    <!-- Back-Image finished -->
+
+    <!-- Coffee Atmosphere -->
+    <section class="coffee_parent container">
+      <div class="coffee_child">
+        <img
+          src="./assets/img/group-of-people-eating-on-restaurant.jpg"
+          alt=""
+        />
+      </div>
+      <div class="coffee_child">
+        <h5>
+          &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; COFFEE
+          ATMOSPHERE
+        </h5>
+        <h1>A Perfect Time To Enjoy Life</h1>
+        <p>
+          Massa cras egestas laoreet montes, dapibus eu sit etiam curabitur
+          faucibus habitasse lectus vestibulum leo, odio dolor quis maecenas
+          faucibus vulputate pharetra nunc sed maecenas diam quisque habitasse.
+        </p>
+        <button class="OrderCof">Order Coffee</button>
+      </div>
+    </section>
+    <!-- Coffee Atmosphere finsihed -->
+
+    <!-- Coffee Atmosphere shop -->
+    <section class="coffee_shop_parent container">
+      <div class="coffee_shop_child">
+        <img src="./assets/img/Espresso.jpg" alt="" />
+        <div class="coffe_shop_child_text">
+          <h6>Expresso</h6>
+          <p>
+            a single espresso is 25ml <br />
+            extracted in 30 seconds
+          </p>
+          <div class="flex">
+            <p><strong>$17.00</strong></p>
+            <button class="order sides_men_btn">Order</button>
+          </div>
+        </div>
+      </div>
+      <div class="coffee_shop_child">
+        <img src="./assets/img/lattee.jpg" alt="" />
+        <div class="coffe_shop_child_text">
+          <h6>Coffee Latte</h6>
+          <p>
+            a single espresso in a 250ml latte glass, with steamed milk added
+            almost to the top
+          </p>
+          <div class="flex">
+            <p><strong>$14.00</strong></p>
+            <button class="order sides_men_btn">Order</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="coffee_shop_child">
+        <img src="./assets/img/Cortado.jpg" alt="" />
+        <div class="coffe_shop_child_text">
+          <h6>Cortado</h6>
+          <p>a single espresso in a glass cup topped up with steamed milk</p>
+          
+          <div class="flex">
+            <p><strong>$12.00</strong></p>
+            <button class="order sides_men_btn">Order</button>
+          </div>
+        </div>
+      </div>
+      <div class="coffee_shop_child">
+        <img src="./assets/img/Cappuccino.jpg" alt="" />
+        <div class="coffe_shop_child_text">
+          <h6>Cappuccino</h6>
+          <p>a single espresso in a glass cup topped up with steamed milk</p>
+          <div class="flex">
+            <p><strong>$21.00</strong></p>
+            <button class="order sides_men_btn">Order</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Coffee Atmosphere shop finished -->
+
+    <!-- wonder class -->
+    <section class="wonder">
+      <div class="wonder_content container">
+        <h5 style="color: #bc9127">
+          &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; IF YOU WONDER
+        </h5>
+        <h1>Why Choose Us</h1>
+        <hr style="color: #999999" />
+      </div>
+
+      <main class="wonder_parent container">
+        <div class="wonder_child">
+          <img src="./assets/img/icon-04.png" alt="" />
+          <h4>Big Discounts</h4>
+          <p style="color: #999">
+            Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci
+            viverra, justo.
+          </p>
+        </div>
+        <div class="wonder_child">
+          <img
+            src="./assets/img/noun-tsunami-3751574.png"
+            width="80px"
+            alt=""
+          />
+          <h4>Environmentally Friendly</h4>
+          <p style="color: #999">
+            Integer euismod blandit nunc sit amet sollicitudin. Fusce quis
+            orciviverra, justo.
+          </p>
+        </div>
+        <div class="wonder_child">
+          <img src="./assets/img/icon-02.png" alt="" />
+          <h4>Quick Payments</h4>
+          <p style="color: #999">
+            Integer euismod blandit nunc sit amet sollicitudin. Fusce quis
+            orciviverra, justo.
+          </p>
+        </div>
+        <div class="wonder_child">
+          <img src="./assets/img/noun-coffee-940249.png" width="80px" alt="" />
+          <h4>Good Taste</h4>
+          <p style="color: #999">
+            Integer euismod blandit nunc sit amet sollicitudin. Fusce quis
+            orciviverra, justo.
+          </p>
+        </div>
+      </main>
+    </section>
+    <!-- wonder class finished -->
+
+    <!-- Subscribe  -->
+    <section class="subscribe container">
+      <div class="subscribe_parent">
+        <div class="subscribe_child">
+          <img
+            src="./assets/img/foot-hotDrinks.jpg"
+            height="100%"
+            width="100%"
+            alt=""
+          />
+        </div>
+        <div class="subscribe_child sub_child">
+          <h5 style="color: #bc9127">
+            &#8212;&#8212;&#8212; SUBSCRIBE TO OUR OFFERS
+          </h5>
+          <h1>
+            See The Latest Discounts & <br />
+            Get Special Offer
+          </h1>
+          <form>
+            <div class="form_flex">
+              <input
+                type="email"
+                placeholder="Email address"
+                name="email"
+                id="email"
+                required
+              />
+              <input type="submit" value="SUBSCRIBE" />
+            </div>
+          </form>
+            
+          <div class="demo"></div>
+          <p style="color: #666">
+            We source both our beans and milk from Uzbekistan small producers.
+            <br />
+            Our milk comes from cows at Parkent dairy and our coffee is <br />
+            hand roasted in small batches by Square Mile Coffee <br />
+            Roasters over Tashkent.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe finished -->
+
+    <!-- Last Point -->
+    <footer class="footer">
+      <div class="footer_content container">
+        <main class="last_parent">
+          <div class="last_child">
+            <ul>
+              <li>
+                <a href="home.html"><img class="coffeelogo" src="./assets/img/Logo.jpeg" alt="" /></a>
+              </li>
+              <li>38 Yahyo Gulyamov Street, Tashkent, Uzbekistan</li>
+              <li>+99898 300 73 00</li>
+              <li>team@bibigon.com</li>
+              <li>Visit Our Bibigon Cafe</li>
+            </ul>
+          </div>
+          <div class="last_child toward_left">
+            <ul>
+              <li>Useful Links</li>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="food.html">Food</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="last_child toward_left">
+            <ul>
+              <li>Popular Coffees</li>
+              <li>Cappuccino</li>
+              <li>Espresso</li>
+              <li>Macchiato</li>
+              <li>Ristretto</li>
+              <li>Caffe Latte</li>
+            </ul>
+          </div>
+          <div class="last_child toward_left">
+            <ul>
+              <li>Stay In Touch</li>
+              <li>Independent The best Coffee Taste</li>
+              <li>Independent The best Coffee Atmosphere</li>
+              <li>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+            </ul>
+          </div>
+        </main>
+        <!-- Last Point finished -->
+
+        <hr style="color: #999" />
+
+        <!-- Footer -->
+        <div class="copyrights">
+          <div class="left_end">
+            <p>
+              &copy; 2023 - This website was created to fulfill Web Technology
+              module’s requirements and does not represent an actual company or
+              service
+            </p>
+          </div>
+          <div class="right_end">
+            <p>Powered by ID-00016014</p>
+          </div>
+      </div>
+    </footer>
+    <!-- Footer Finished -->
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

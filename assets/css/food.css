@@ -1,0 +1,79 @@
+.food_parent {
+  padding: 100px 0;
+  display: flex;
+  gap: 50px;
+}
+.food_child:nth-child(1) {
+  width: 35%;
+}
+
+.food_child:nth-child(2) {
+  width: 65%;
+}
+/* Main food Finished */
+
+/* Breakfast Bits */
+
+.food_child img {
+  width: 100%;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.food_child p {
+  font-size: 1.7em;
+}
+
+.breakfast {
+  margin: 50px 0;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bits_parent {
+  display: flex;
+  gap: 30px;
+}
+
+.bits_father {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.bits_son {
+  width: 48%;
+}
+
+.bits_son strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bits_son img {
+  width: 100%;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.bits_son p {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.bits_child ul li {
+  list-style: none;
+}
+
+.bits_child {
+  width: 50%;
+}
+
+.bits_child li {
+  margin-bottom: 4rem;
+}
+/* Breakfast Bits Finished */
+
+.eggs_img img {
+  border-radius: 40%;
+  box-shadow: 10px 10px 5px lightblue;
+}

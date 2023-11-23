@@ -1,0 +1,143 @@
+.Coffe_parent {
+  display: flex;
+  margin-top: 50px;
+}
+
+.Coffe_child:first-child {
+  width: 60%;
+}
+
+.Coffe_child:last-child {
+  width: 40%;
+}
+
+.Coffe_child img {
+  width: 100%;
+}
+
+.Coffee_Main h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.Coffe_child ul {
+  list-style: none;
+}
+
+.Pre-order {
+  padding-top: 15px;
+  margin-bottom: 80px;
+  font-size: 25px;
+}
+
+.dropdown {
+  width: 400px;
+  margin: 20px 0;
+  border: none;
+}
+
+#drop_menu {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#drop_menu option {
+  border: none;
+  padding: 10px;
+}
+/* Brief Info done */
+
+/* Little Navabar */
+.navbar_little_Main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+#navbar_little a {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 300ms;
+}
+
+#navbar_little a:hover {
+  color: #edb932;
+}
+
+#navbar_little ul {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+/* Little Navabar done */
+
+/* Whole Bits */
+
+.food_child img {
+  width: 100%;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.food_child p {
+  padding-top: 100px;
+  font-size: 1.7em;
+  width: 80%;
+}
+
+.breakfast {
+  margin: 50px 0;
+  font-size: 2em;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bits_parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+
+.bits_child {
+  width: 48%;
+}
+
+.bits_father {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bits_son {
+  width: 48%;
+}
+
+.bits_son strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bits_son img {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.bits_son p {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.bits_child ul li {
+  list-style: none;
+}
+
+.bits_child li {
+  margin-bottom: 4rem;
+}
+/* Whole Bits Finished */
